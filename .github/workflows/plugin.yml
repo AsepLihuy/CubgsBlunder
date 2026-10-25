@@ -1,0 +1,15 @@
+name: DeathBan
+version: 1.0.0
+main: me.deathban.DeathBan
+api-version: '1.21'
+
+commands:
+  unbankacung:
+    description: Membuka ban pemain lebih cepat
+    usage: /unbankacung <player>
+    permission: deathban.unban
+
+permissions:
+  deathban.unban:
+    description: Mengizinkan membuka ban pemain
+    default: op
